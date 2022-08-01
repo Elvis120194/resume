@@ -5,36 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="роллы , пицца, шаурма,Wok.">
-    <meta name="keywords" content="доставка еды по городу Евпатория ">
+    <meta name="keywords" content=" резюме,доставка еды по городу Евпатория ">
+  <link rel="stylesheet" href="resume.css">
     <title> Резюме </title>
 </head> 
-<h1> Ибрагимов Эльвис Ремзиевич</h1>
 <body>
-    <hr >
-<p><strong>Я сооснователь доставки еды радуга вкусов в Евпатории</strong>,работаю суши-поваром более 5лет.
-   <br> <strong>о себе:</strong> <em>люблю готовить, придумывать что-то новое и необычное,</em>
-    веду здоровый образ жизни.
-</p>
+<div class="conteiner">
+    <h1>Ибрагимов Эльвис</h1>
+    <div class="info">
+        <img src="elvis.jpg" class="avatar" alt="Эльвис">
+ 
+    <div class="info-text">
+        <p><strong>Я сооснователь доставки еды радуга вкусов в Евпатории</strong>,работаю суши-поваром более 5лет.
+        <strong>О себе:</strong> <em>люблю готовить, придумывать что-то новое и необычное,</em>
+        веду здоровый образ жизни. В данный момент изучаю IT-сферу.
+        </p>
 <h4>сыылки на социальные сети:</h4>
-<a href="https://vk.com/radugavkusov_evpa" target="_blank">Vk</a>
-|
-<a href="instagram.com" target="_blank">instagram</a>
-| 
-<a href="https://yandex.ru/maps/org/raduga_vkusov/212131621111/?ll=33.355891%2C45.208593&z=12.6" target="_blank">yandex</a>
-|
+    <!-- <h1> я стилизовал 2 вида ссылок </h1> -->
+    <!-- <a class="vk" href="https://vk.com/id77782827" target="_blank"></a> -->
+    <a href="https://vk.com/id77782827" target="_blank"><img src="https://booster-cs.ru/templates/img/template/vk.png" alt="vk"></a>
+    <a href="inst#"target="_blank"><img src="https://assets.website-files.com/5872b80dcda6383b06dbca2a/5b9a1ff22d798ea23fc6e3bf_IG_Glyph_Fill.png" alt="ins"> </a>   
+    <a href="https://vk.com/radugavkusov_evpa"><img src="https://avatars.mds.yandex.net/i?id=c09034ff4e7a0c4869205c6d8065b5a3-5228667-images-thumbs&n=13" alt="радуга вкусов"></a>
+<!-- <a class="ins" href="instagram.com" target="_blank">instagram</a> -->
+ <!-- <a class="yan" href="https://yandex.ru/maps/org/raduga_vkusov/212131621111/?ll=33.355891%2C45.208593&z=12.6" target="_blank">yandex</a> -->
+
+</div>
 <br>
-<img src="Raduga.jpg" width="150" alt="картинка радуга вкусов"><img src="https://avatars.mds.yandex.net/get-altay/1666174/2a0000016f42366e12f32801fa4a18945703/XXXL" width="200" alt="радуга вкусов ">
-<h2>мои хобби</h2>
-<ol>
-    <Li>Кулинария</Li>
-    <lI>Спорт</lI>
-    <li>Видео игры</li>
-    
-</ol>
-<h2>Опыт работы</h2>
-<table>
+</div>
+        <div class="card bg-red">
+        <h2 class="color-text">мои хобби</h2>
+       
+        <ol class="list">
+            <Li>Кулинария</Li>
+            <lI>Спорт</lI>
+            <li>Видео игры</li>
+            
+        </ol>
+    </div>
+<div class="card bg-green">
+    <h2 class="color-text">Опыт работы</h2>
+
+<table class="table">
     <thead>
-        <tr>
+        <tr class="tr">
                     <th>Название</th>
                     <th>Должность</th>
                     <th>Год</th>
@@ -58,7 +71,7 @@
             </tr>
             <tr>
                 <td>радуга вкусов</td>
-                <td>основатель(суши-поваро)</td>
+                <td>основатель(суши-повар)</td>
                 <td>2018-сейчас</td>
             </tr>
         </tr>
@@ -70,30 +83,30 @@
     
     </tbody>
    </table>
-   <h1>Связаться со мной </h1>
-   <form >
-    <label for="neme">Ваше имя</label>
-    <input type="neme" id="neme" placeholder="введите имя">
-   <div>
-   <label for="email"> Ваш email</label>
-    <input type="email" id="email" placeholder="введите email">
-   </div>
-   <div>
-      <label for="password">пароль</label>
-      <input type="password" id="password" placeholder="введите password">
-   </div>
-   <div>
-    <label for="messege">Ваше Сообщение</label>
-    <br>
-    <textarea  id="messege" cols="20" rows="5" placeholder="введите сообщение"></textarea>
-
 </div>
-<button type="submit"> отправить</button>
-<button type="reset"> очистить</button>
+        <form action="/"  class="form">
+            <h1>Связаться со мной </h1>
+            <div class="form-row">
+            <div class="form-group">
+            <label for="neme">Ваше имя</label>
+            <input type="neme" id="neme" placeholder="введите имя">
+        </div>
+            <div class="form-group">
+        <label for="email"> Ваш email</label>
+            <input type="email" id="email" placeholder="введите email">
+        </div>
+            </div>
+        <div class="form-group">
+            <label for="messege">Ваше Сообщение</label>
+            <textarea  id="messege" cols="20" rows="5" placeholder="введите сообщение"></textarea>
+        </div>
+
+<button class="btn" type="submit"> отправить</button>
+<button class="btn" type="reset"> очистить</button>
+
 
 </form>
-
-
+</div>
 
 </html>
 </body>
